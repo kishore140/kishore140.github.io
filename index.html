@@ -1,6 +1,98 @@
-<html>
-  <head>
-    
-  </head>
-  <body><p>Kishore</p></body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Backend Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <link href="/style.css" rel="stylesheet">
+</head>
+<body>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#stats">Stats</a>
+    <a href="resume.pdf" download class="nav-cv"><i class="fas fa-download"></i> Resume</a>
+</nav>
+
+<div class="container">
+    <section id="about" class="hero">
+        <div class="photo-frame"><img src="/DSC_0265.JPG" alt="Kishore"></div>
+        <div class="about-text">
+            <h1>Hi, I'm <span style="color:var(--primary)">Kishore H 👋</span></h1>
+            <p>I am a developer who builds clean interfaces and scalable solutions with my creative logical thinking. I'm obsessed with performance and great user experiences.</p>
+            <div style="margin-top: 20px;"><a href="kishorekannan935@gmail.com" class="btn">Connect With Me</a></div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card"><i class="fab fa-java"></i><p>Java</p>
+                <div class="frameworks"><span>Core Java</span><span>OOP</span><span>MultiThreading</span><span>JDBC</span><span>Servlet</span><span>JSP</span></div>
+            </div>
+            <div class="skill-card"><i class="fas fa-database"></i><p>MySQL</p>
+            </div>
+            <div class="skill-card"><i class="fas fa-layer-group" style="color:#d82c20"></i><p>Redis</p>
+            </div>
+            <div class="skill-card"><i class="fab fa-linux"></i><p>Linux</p>
+            </div>
+            <div class="skill-card"><i class="fab fa-html5"></i><p>HTML5</p></div>
+            <div class="skill-card"><i class="fab fa-css3-alt"></i><p>CSS3</p></div>
+            <div class="skill-card"><i class="fab fa-js"></i><p>JavaScript</p></div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Work Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <span class="timeline-date">October 2023 - February 2024</span>
+                <span class="timeline-title">Java Internship At  <span style="color:var(--primary)">Zoho Corporation</span></span>
+                <p>During my internship, I mastered Java from basic to advanced levels, which allowed me to enhance my technical skills and developed my ability to build core-based applications</p>
+            </div>
+            <div class="timeline-item">
+                <span class="timeline-date">June 2024 - Currently Working</span>
+                <span class="timeline-title">Support Debug Engineer At <span style="color:var(--primary)">Zoho Corporation</span></span>
+                <p>Experienced Support Debug Engineer which gives me a expertise in troubleshooting, debugging, and providing technical support for enterprise-level applications. Adept at identifying, analyzing, and resolving issues across software environments and also provide me ability to think like a developer
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-img"><i class="fas fa-shopping-cart"></i></div>
+                <div class="project-info">
+                    <h3>E-Commerce Backend</h3>
+                    <div class="project-tags"><span>Java</span><span>Spring Boot</span><span>MySQL</span></div>
+                    <p>A high-performance REST API supporting real-time inventory and secure payments.</p>
+                    <div class="project-links">
+                        <a href="#"><i class="fab fa-github"></i> Code</a>
+                        <a href="#"><i class="fas fa-external-link-alt"></i> Live</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="stats">
+        <h2>Coding Footprint</h2>
+        <div class="stats-wrapper">
+            <div class="stat-card"><h3>GitHub</h3><img src="https://github-readme-stats.vercel.app/api?username=[YOUR_GITHUB]&show_icons=true&theme=transparent&title_color=818cf8&text_color=ffffff&icon_color=818cf8"></div>
+            <div class="stat-card"><h3>LeetCode</h3><img src="https://leetcode-stats-six.vercel.app/api?username=[YOUR_LEETCODE]&theme=dark"></div>
+        </div>
+    </section>
+
+    <section id="con"></section>
+</div>
+
+</body>
 </html>
