@@ -58,14 +58,7 @@ h2 { text-align: center; margin-bottom: 2.5rem; font-size: 2rem; letter-spacing:
     border: 1px solid var(--glass-border); transition: 0.4s;
 }
 .skill-card i { font-size: 2.8rem; color: var(--primary); margin-bottom: 15px; display: block; }
-.frameworks {
-    position: absolute; bottom: -100%; left: 0; width: 100%;
-    background: var(--primary); padding: 10px; display: flex; 
-    flex-wrap: wrap; justify-content: center; gap: 5px; transition: 0.4s;
-}
 .frameworks span { font-size: 0.65rem; background: rgba(255,255,255,0.2); padding: 2px 6px; border-radius: 4px; font-weight: bold; }
-.skill-card:hover { transform: translateY(-10px); padding-bottom: 5rem; }
-.skill-card:hover .frameworks { bottom: 0; }
 
 /* Projects Section */
 .projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
@@ -105,4 +98,27 @@ h2 { text-align: center; margin-bottom: 2.5rem; font-size: 2rem; letter-spacing:
 .btn:hover { transform: scale(1.05); box-shadow: 0 5px 15px rgba(129, 140, 248, 0.4); }
 
 @media (max-width: 768px) { .stats-wrapper { grid-template-columns: 1fr; } .hero { text-align: center; justify-content: center; } }
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,0.2); 
+    padding: 1.5rem; 
+    border-radius: 12px; 
+    text-align: center; 
+    border: 1px solid var(--glass-border); 
+    margin: 10px;
+    color: wheat;
+}
+#email, #subject{
+    height: 30px;
+    width: 400px;
+}
+#message{
+    height: 200px;
+    width: 700px;
+}
+#sendMessage{
+    margin-left: 250px;
 
+}
